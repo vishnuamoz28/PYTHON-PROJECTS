@@ -1,0 +1,8 @@
+def convert( s ):
+    new = ""
+    for x in s:
+        new += x
+    return new
+s = ['athulya', 'jayan', 'manu', 'arjun', 'hari', 'amal', 'mani']
+string = list(convert(s))
+print "Count of 'a' in the list is : ", string.count('a')

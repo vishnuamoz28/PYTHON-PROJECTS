@@ -1,0 +1,14 @@
+list1 = [1, 2, 4, 3, 5]
+list2 = [1, 2, 4, 3, 5]
+print("The first list is : ", str(list1))
+print("The second list is : ", str(list2))
+sum1 = sum(list1)
+sum2 = sum(list2)
+print"SUM OF THE FIRST LIST IS : ", sum1
+print"SUM OF THE FIRST LIST IS : ", sum2
+if sum1 == sum2:
+    print"LISTS SUMS TO SAME VALUE."
+else:
+    print "LISTS SUMS TO DIFFERENT VALUE."
+print ""
+

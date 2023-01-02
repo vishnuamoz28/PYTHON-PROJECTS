@@ -1,0 +1,8 @@
+list1 = [1, 2, 4, 3, 5]
+list2 = [1, 2, 4, 3, 5]
+print("The first list is : ", str(list1))
+print("The second list is : ", str(list2))
+if list1 == list2:
+    print("BOTH THE LISTS ARE OF SAME LENGTH.")
+else:
+    print("BOTH THE LISTS ARE OF DIFFERENT LENGTH.")
